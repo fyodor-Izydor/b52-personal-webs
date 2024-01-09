@@ -154,6 +154,6 @@ const blogs = [
     
     renderBlog()
 
-    // setInterval(() => {
-    //     renderBlog()
-    // }, 1000)
+    setInterval(() => {
+        renderBlog()
+    }, 1000)

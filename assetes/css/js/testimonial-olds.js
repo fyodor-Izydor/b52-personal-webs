@@ -1,32 +1,32 @@
 const testimonials = [
     {
         author: "Muhammad noorwahyu",
-        content: "Siplah oke",
-        image: "https://images.pexels.com/photos/874158/pexels-photo-874158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        content: "Keren banggg",
+        image: "https://media.hitekno.com/thumbs/2023/01/18/61227-sosok-di-balik-meme-giga-chad/730x480-img-61227-sosok-di-balik-meme-giga-chad.jpg",
         rating: 3
     },
     {
         author: "Fyodor Izydor",
-        content: "Apasih bang",
-        image: "https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg?auto=compress&cs=tinysrgb&w=600",
+        content: "Kata mamah gaboleh gitu, tapi sy suka",
+        image: "https://miro.medium.com/v2/resize:fit:720/1*LAHifsmUAzJp1v5RpAxRsQ.jpeg",
         rating: 4,
     },
     {
         author: "Sintario Satya",
-        content: "Mantap bro",
-        image: "https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?auto=compress&cs=tinysrgb&w=600",
+        content: "Ayo Kita foto bangg",
+        image: "https://media.hitekno.com/thumbs/2023/01/18/91927-sosok-di-balik-meme-giga-chad/730x480-img-91927-sosok-di-balik-meme-giga-chad.jpg",
         rating: 3,
     },
     {
         author: "Dimskuy",
         content: "Mantap bro",
-        image: "https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?auto=compress&cs=tinysrgb&w=600",
+        image: "https://netstorage-tuko.akamaized.net/images/f238812a99935fdf.jpeg?imwidth=900",
         rating: 1
     },
     {
         author: "Ronan Richot",
-        content: "Mantap bro",
-        image: "https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?auto=compress&cs=tinysrgb&w=600",
+        content: "Kata mamah jangan pulang sore bang",
+        image: "https://dudeproducts.com/cdn/shop/articles/gigachad_1024x1024.jpg?v=1667928905",
         rating: 2
     }
 ]
