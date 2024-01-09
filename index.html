@@ -6,6 +6,7 @@
   <link rel="icon" href="assetes\css\img\brandred.png">
   <link rel="stylesheet" href="assetes\css\nav.css">
   <link rel="stylesheet" href="assetes\css\index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
   <title>Card</title>
 
@@ -92,33 +93,58 @@
       padding: 0px 7px 0px 7px;
     }
 
+    @media only screen and (max-width: 571px) {
+      .intro {
+        height: 100px;
+      }
+
+      .card {
+        margin-top: 20px;
+      }
+      .cardo {
+        flex-direction: column-reverse;
+        margin-top: 100px;
+        height: 505px;
+        width: 403px;
+        font-size: small;
+      }
+    }
+
   </style>
 </head>
 <body>
   <!--  -->
   <nav class="navbar">
-      <ul class="navbar-ul">
-          <div class="navbar-left">
-              <li>
-                  <img src="assetes\css\img\brandred.png" class="navbar-logo" />
-              </li>
-              <li>
-                  <a href="index.html" class="navbar-link active"> Home </a>
-              </li>
-              <li>
-                  <a href="blog.html" class="navbar-link"> My Project </a>
-              </li>
-              <li>
+    <ul class="navbar-ul">
+        <div class="navbar-left">
+            <li>
+                <img src="assetes\css\img\brandred.png" class="navbar-logo" />
+            </li>
+            <li>
+                <a href="index.html" class="navbar-link"> Home </a>
+            </li>
+            <li>
+                <a href="blog.html" class="navbar-link active"> My Project </a>
+            </li>
+            <li>
                 <a href="testimonial.html" class="navbar-link"> Testimonial</a>
             </li>
-          </div>
-          <div class="navbar-right">
-              <li>
-                  <a href="contact.html" class="navbar-contact-btn"> Contact </a>
-              </li>
-          </div>
-      </ul>
-  </nav>
+        </div>
+        <div class="navbar-right">
+            <li>
+                <a href="contact.html" class="navbar-contact-btn"> Contact </a>
+            </li>
+            <i class="fa-solid fa-bars fa-2x" style="cursor: pointer;" id="hamburger-button"
+                onclick="openHamburger()"></i>
+        </div>
+    </ul>
+    <div id="hamburger-navbar-container" class="hamburger-navbar-container">
+        <a href="index.html" class="hamburger-navbar-link">Home</a>
+        <a href="blog.html" class="hamburger-navbar-link">My Project</a>
+        <a href="testimonial.html" class="hamburger-navbar-link">Testimonial</a>
+        <a href="contact.html" class="hamburger-navbar-link">Contact</a>
+    </div>
+</nav>
   <!--  -->
 
   <!--  -->
@@ -172,4 +198,6 @@
   </div>
   
 </body>
+
+<script src="assetes\css\js\nav.js"></script>
 </html>

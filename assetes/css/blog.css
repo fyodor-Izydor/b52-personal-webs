@@ -151,7 +151,8 @@
   .blog .blog-list .blog-list-item .blog-content p {
     /* padding-left: 20px; */
     flex: 2;
-    max-width: 800px
+    max-width: 800px;
+    margin-bottom: 20px;
   }
   
   .blog .blog-list .btn-group {
@@ -192,4 +193,13 @@
     font-size: 14px;
     line-height: 20px;
     text-align: justify;
+  }
+
+  /*  */
+
+  @media only screen and (max-width: 571px) {
+    .blog .blog-list{
+      display: flex;
+      flex-direction: column;
+    }
   }

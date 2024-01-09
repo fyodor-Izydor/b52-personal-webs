@@ -26,6 +26,10 @@
     margin-right: 5%;
 }
 
+.hamburger-active {
+    background-color: orangered;
+}
+
 .navbar-link {
     text-decoration: none;
     color: black
@@ -51,4 +55,60 @@
     border-radius: 10px;
     margin-top: 20px;
     text-decoration: none;
+}
+
+/* @media only screen and (max-width: 571px) {
+    .navbar-link {
+        display: none;
+    }
+
+    .navbar-contact-btn {
+        display: none;
+    }
+} */
+
+.hamburger-navbar-container {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    margin-right: 70px;
+}
+
+.hamburger-navbar-link {
+    display: none;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+#hamburger-button {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+@media only screen and (max-width: 571px) {
+    .navbar-link {
+        display: none;
+    }
+
+    .navbar-contact-btn {
+        display: none;
+    }
+
+    .navbar-right {
+        margin-right: 12%;
+    }
+    .hamburger-navbar-link {
+        display: block;
+    }
+
+    #hamburger-button {
+        display: block;
+    }
 }
