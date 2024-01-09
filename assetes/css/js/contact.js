@@ -20,8 +20,8 @@ function submitData() {
         else if(phoneNumber == "") {
             return alert("Phone number belum di isi")
         }
-        else if(phoneNumber == ""){
-            return alert("phone number harus di isi")
+        else if(subject == ""){
+            return alert("subject number harus di isi")
         }
         
         else if(message == ""){

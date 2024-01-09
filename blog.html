@@ -2,11 +2,13 @@
 <html>
 
 <head>
-    <title>Blog</title>
+    <title>Project</title>
     <link rel="icon" href="assetes\css\img\brandred.png">
     <link rel="stylesheet" href="assetes\css\index.css">
     <link rel="stylesheet" href="assetes\css\blog.css" />
     <link rel="stylesheet" href="assetes\css\nav.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
 </head>
 
 <body>
@@ -20,7 +22,7 @@
                     <a href="index.html" class="navbar-link"> Home </a>
                 </li>
                 <li>
-                    <a href="blog.html" class="navbar-link active"> Blog </a>
+                    <a href="blog.html" class="navbar-link active"> My Project </a>
                 </li>
             </div>
             <div class="navbar-right">
@@ -35,33 +37,66 @@
         <div class="blog-form">
             <div class="form-container">
                 <form onsubmit="addBlog(event)">
-                    <h1>Create Post Blog</h1>
+                    <h1 class="title">ADD MY PROJECT</h1>
                     <div>
-                        <label for="input-blog-title">Title</label>
+                        <label for="input-blog-title">Project Name</label>
                         <input id="input-blog-title" />
                     </div>
+
+                    <div class="the-date"> 
+                        <div class="project-date">
+                            <label for="input-start-date">Start Date</label>
+                            <input type="date" id="input-start-date" />
+                        </div>
+                        <div class="project-date">
+                            <label for="input-end-date">End Date</label>
+                            <input type="date" id="input-end-date" />
+                        </div>
+                    </div>
+
                     <div>
-                        <label for="input-blog-content">Content</label>
+                        <label>Technologies</label>
+                        <div class="checkbox-group">
+                            <label>
+                                <input type="checkbox" id="node" value="node" />
+                                Node
+                            </label>
+                            <label>
+                                <input type="checkbox" id="react" value="react" />
+                                React
+                            </label>
+                            <label>
+                                <input type="checkbox" id="figma" value="figma" />
+                                Figma
+                            </label>
+                            <label>
+                                <input type="checkbox" id="mdb" value="mdb" />
+                                MDB
+                            </label>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="input-blog-content">Description</label>
                         <textarea id="input-blog-content"></textarea>
                     </div>
                     <div>
                         <label>Upload Image</label>
                         <div class="input-blog-image-group">
                             <label for="input-blog-image">
-                                <p>Attach File</p>
+                                <p>choose</p>
                                 <img src="assetes\css\img\paperclip.svg" alt="file">
                             </label>
                             <input type="file" id="input-blog-image" hidden />
                         </div>
                     </div>
                     <div class="button-group">
-                        <button>Post Blog</button>
+                        <button id="submit-button">submit</button>
                     </div>
                 </form>
             </div>
         </div>
-
-        <hr class="line" />
+        
+        <h1 class="title">MY PROJECT</h1>
         <div id="contents" class="blog-list">
         </div>
     </div>
